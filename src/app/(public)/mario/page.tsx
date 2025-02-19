@@ -1,14 +1,9 @@
-
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Home() {
-  // sm: min 640px
-  // md: min 768px
-  // lg: min 1024px
-  // 2xl: min 1536px
-  return (
-    <main className=" 
+export default function Mario() {
+    return (
+        <main className=" 
         w-screen h-screen 
         bg-red-700 
         sm:bg-blue-600
@@ -42,5 +37,5 @@ export default function Home() {
       </form>
 
     </main>
-  );
+    );
 }

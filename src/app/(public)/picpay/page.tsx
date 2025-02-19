@@ -1,4 +1,4 @@
-export default function Picpay () {
+export default function Picpay() {
     return(
         <div className="flex flex-col items-center bg-green-500 h-screen">
             
